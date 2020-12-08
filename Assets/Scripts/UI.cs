@@ -34,11 +34,11 @@ public class UI : MonoBehaviour
         inputTexture = gameObject.GetComponent<Machine>().inputItems[0].GetComponent<Item>().UIIcon;
 
         //Set the icon to the icon from the current object in the list
-        instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
-        instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
+        GameObject.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
+        GameObject.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
 
-        inputCountText = instantiatedUI.transform.Find("Input").transform.Find("InputAmount").GetComponent<TMP_Text>();
-        outputCountText = instantiatedUI.transform.Find("Output").transform.Find("OutputAmount").GetComponent<TMP_Text>();
+        inputCountText = GameObject.Find("InputAmount").GetComponent<TMP_Text>();
+        outputCountText = GameObject.Find("OutputAmount").GetComponent<TMP_Text>();
 
 
         inputCountText.text = gameObject.GetComponent<Machine>().inputItems.Count.ToString();
@@ -63,20 +63,20 @@ public class UI : MonoBehaviour
 
             if(inputItems.Count > 0)
             {
-                instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
+                GameObject.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
             } else
             {
                 inputCountText.text = "";
-                instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = null;
+                GameObject.Find("InputImage").GetComponent<Image>().sprite = null;
             }
 
             if(outputItems.Count > 0)
             {
-                instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
+                GameObject.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
             } else
             {
                 outputCountText.text = "";
-                instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = null;
+                GameObject.Find("OutputImage").GetComponent<Image>().sprite = null;
             }
 
         }
