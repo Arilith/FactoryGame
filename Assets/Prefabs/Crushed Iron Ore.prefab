@@ -16432,7 +16432,7 @@ MonoBehaviour:
   crushingTime: 0
   canBeSmelted: 1
   canBeCrushed: 0
-  UIIcon: {fileID: 2800000, guid: ef545254c6e1da949854a890c4db6632, type: 3}
+  UIIcon: {fileID: 21300000, guid: ef545254c6e1da949854a890c4db6632, type: 3}
   BakedItem: {fileID: 2541431429932975615, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
   CrushedItem: {fileID: 0}
   crushMultiplier: 0

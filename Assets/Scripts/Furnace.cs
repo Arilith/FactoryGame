@@ -158,6 +158,9 @@ public class Furnace : MonoBehaviour
             //Destroy the item so it doesn't take up memory.
             Destroy(item);
 
+            //UpdateUI
+            GetComponent<UI>().UpdateUI();
+
             //Add to output
             machine.outputItems.Add(item.GetComponent<Item>().BakedItem);
 

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro; 
 
 public class UI : MonoBehaviour
 {
@@ -10,11 +12,15 @@ public class UI : MonoBehaviour
 
     private GameObject instantiatedUI;
 
-    private Texture inputTexture;
-    private Texture outputTexture;
+    private Sprite inputTexture;
+    private Sprite outputTexture;
+
+    private TMP_Text inputCountText;
+    private TMP_Text outputCountText;
 
     private GameObject currentObject;
 
+    private bool isOpen;
     void Start()
     {
         uiCanvas = GameObject.Find("UI");
@@ -25,12 +31,57 @@ public class UI : MonoBehaviour
   
         instantiatedUI = Instantiate(ui, uiCanvas.transform);
 
-       // inputTexture = gameObject.GetComponent<Machine>()
+        inputTexture = gameObject.GetComponent<Machine>().inputItems[0].GetComponent<Item>().UIIcon;
+
+        //Set the icon to the icon from the current object in the list
+        instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
+        instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
+
+        inputCountText = instantiatedUI.transform.Find("Input").transform.Find("InputAmount").GetComponent<TMP_Text>();
+        outputCountText = instantiatedUI.transform.Find("Output").transform.Find("OutputAmount").GetComponent<TMP_Text>();
+
+
+        inputCountText.text = gameObject.GetComponent<Machine>().inputItems.Count.ToString();
+        outputCountText.text = gameObject.GetComponent<Machine>().outputItems.Count.ToString();
+
+        isOpen = true;
         //inputTexture = instantiatedUI.transform.GetChild(1).transform.GetChild(0).GetComponent<Texture>();
 
         //Debug.Log("Opening UI");
     }
 
+    public void UpdateUI()
+    {
+
+        if(isOpen)
+        {
+            List<GameObject> inputItems = gameObject.GetComponent<Machine>().inputItems;
+            List<GameObject> outputItems = gameObject.GetComponent<Machine>().outputItems;
+
+            inputCountText.text = inputItems.Count.ToString();
+            outputCountText.text = outputItems.Count.ToString();
+
+            if(inputItems.Count > 0)
+            {
+                instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
+            } else
+            {
+                inputCountText.text = "";
+                instantiatedUI.transform.Find("Input").transform.Find("InputImage").GetComponent<Image>().sprite = null;
+            }
+
+            if(outputItems.Count > 0)
+            {
+                instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
+            } else
+            {
+                outputCountText.text = "";
+                instantiatedUI.transform.Find("Output").transform.Find("OutputImage").GetComponent<Image>().sprite = null;
+            }
+
+        }
+        
+    }
 
     public void Update()
     {
@@ -39,9 +90,11 @@ public class UI : MonoBehaviour
 
     public void CloseUI()
     {
+        isOpen = false;
         Debug.Log("Closing UI");
         Destroy(instantiatedUI);
         instantiatedUI = null;
+        
     }
 
 }

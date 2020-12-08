@@ -210,6 +210,10 @@ PrefabInstance:
       value: Iron Ore (8)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8202043
       objectReference: {fileID: 0}
@@ -222,6 +226,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -232,14 +240,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -338,6 +338,10 @@ PrefabInstance:
       value: Iron Ore (17)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8169084
       objectReference: {fileID: 0}
@@ -350,6 +354,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -360,14 +368,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -400,6 +400,10 @@ PrefabInstance:
       value: Iron Ore (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0235
       objectReference: {fileID: 0}
@@ -412,6 +416,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -422,14 +430,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -462,6 +462,10 @@ PrefabInstance:
       value: Iron Ore (15)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5802045
       objectReference: {fileID: 0}
@@ -474,6 +478,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -484,14 +492,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -524,6 +524,10 @@ PrefabInstance:
       value: Iron Ore (20)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.376909
       objectReference: {fileID: 0}
@@ -536,6 +540,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -546,14 +554,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -586,6 +586,10 @@ PrefabInstance:
       value: Iron Ore (16)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8169084
       objectReference: {fileID: 0}
@@ -598,6 +602,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -608,14 +616,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -678,6 +678,10 @@ PrefabInstance:
       value: Iron Ore (18)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8169084
       objectReference: {fileID: 0}
@@ -690,6 +694,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -700,14 +708,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -835,6 +835,10 @@ PrefabInstance:
       value: Iron Ingot (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -847,6 +851,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -857,14 +865,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -897,6 +897,10 @@ PrefabInstance:
       value: Iron Ore (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0235
       objectReference: {fileID: 0}
@@ -909,6 +913,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -919,14 +927,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1054,6 +1054,10 @@ PrefabInstance:
       value: Iron Ore (11)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8202043
       objectReference: {fileID: 0}
@@ -1066,6 +1070,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1076,14 +1084,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1116,6 +1116,10 @@ PrefabInstance:
       value: Crusher (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.27
       objectReference: {fileID: 0}
@@ -1128,6 +1132,10 @@ PrefabInstance:
       value: -3.814622
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1138,14 +1146,6 @@ PrefabInstance:
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1268,6 +1268,10 @@ PrefabInstance:
       value: Iron Ore (21)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.376909
       objectReference: {fileID: 0}
@@ -1280,6 +1284,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1290,14 +1298,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1330,6 +1330,10 @@ PrefabInstance:
       value: Iron Ore (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2602043
       objectReference: {fileID: 0}
@@ -1342,6 +1346,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1352,14 +1360,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1440,6 +1440,10 @@ PrefabInstance:
       value: Iron Ore (13)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5802045
       objectReference: {fileID: 0}
@@ -1452,6 +1456,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1462,14 +1470,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1502,6 +1502,10 @@ PrefabInstance:
       value: Iron Ore (23)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.376909
       objectReference: {fileID: 0}
@@ -1514,6 +1518,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1524,14 +1532,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1601,6 +1601,10 @@ PrefabInstance:
       value: Iron Ore (19)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8169084
       objectReference: {fileID: 0}
@@ -1613,6 +1617,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1623,14 +1631,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1663,6 +1663,10 @@ PrefabInstance:
       value: Iron Ingot
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1096835
       objectReference: {fileID: 0}
@@ -1675,6 +1679,10 @@ PrefabInstance:
       value: -18.632458
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9162872
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1685,14 +1693,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9162872
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1724,6 +1724,10 @@ PrefabInstance:
       value: Iron Ore (9)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8202043
       objectReference: {fileID: 0}
@@ -1736,6 +1740,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1746,14 +1754,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1786,6 +1786,10 @@ PrefabInstance:
       value: Iron Ore (22)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.376909
       objectReference: {fileID: 0}
@@ -1798,6 +1802,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1808,14 +1816,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1848,6 +1848,10 @@ PrefabInstance:
       value: Iron Ingot
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -1860,6 +1864,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1870,14 +1878,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1910,6 +1910,10 @@ PrefabInstance:
       value: Iron Ore (10)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8202043
       objectReference: {fileID: 0}
@@ -1922,6 +1926,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1932,14 +1940,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1972,6 +1972,10 @@ PrefabInstance:
       value: Iron Ore (7)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2602043
       objectReference: {fileID: 0}
@@ -1984,6 +1988,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1994,14 +2002,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2094,6 +2094,10 @@ PrefabInstance:
       value: Iron Ore (4)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2602043
       objectReference: {fileID: 0}
@@ -2106,6 +2110,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2116,14 +2124,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2257,6 +2257,10 @@ PrefabInstance:
       value: Iron Ore (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.2602043
       objectReference: {fileID: 0}
@@ -2269,6 +2273,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2279,14 +2287,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2414,6 +2414,10 @@ PrefabInstance:
       value: Iron Ingot (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -2426,6 +2430,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2436,14 +2444,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2481,6 +2481,10 @@ PrefabInstance:
       value: Iron Ore
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0235
       objectReference: {fileID: 0}
@@ -2493,6 +2497,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2503,14 +2511,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2543,6 +2543,10 @@ PrefabInstance:
       value: Iron Ingot (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -2555,6 +2559,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2565,14 +2573,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2605,6 +2605,10 @@ PrefabInstance:
       value: Iron Ore (12)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5802045
       objectReference: {fileID: 0}
@@ -2617,6 +2621,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2627,14 +2635,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2667,6 +2667,10 @@ PrefabInstance:
       value: Iron Ingot (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -2679,6 +2683,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2689,14 +2697,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2729,6 +2729,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.040574
       objectReference: {fileID: 0}
@@ -2739,6 +2743,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 9.026802
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.18898727
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2753,14 +2761,6 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.18898727
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -2773,13 +2773,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: -3894178391293611245, guid: 113f0833ed9cfdf478bab7495faa5b16, type: 2}
-    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -3894178391293611245, guid: 113f0833ed9cfdf478bab7495faa5b16, type: 2}
     - target: {fileID: 9095140526464027671, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: explosion
       value: 
@@ -2798,6 +2798,10 @@ PrefabInstance:
       value: Iron Ore (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0235
       objectReference: {fileID: 0}
@@ -2810,6 +2814,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -2820,14 +2828,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2992,7 +2992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -3002,6 +3002,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1923787426
 Canvas:
   m_ObjectHideFlags: 0
@@ -3055,6 +3056,10 @@ PrefabInstance:
       value: Iron Ingot (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.17330933
       objectReference: {fileID: 0}
@@ -3067,6 +3072,10 @@ PrefabInstance:
       value: -7.7161484
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -3077,14 +3086,6 @@ PrefabInstance:
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2886572921304342341, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3117,6 +3118,10 @@ PrefabInstance:
       value: Iron Ore (14)
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5802045
       objectReference: {fileID: 0}
@@ -3129,6 +3134,10 @@ PrefabInstance:
       value: -8.005299
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -3139,14 +3148,6 @@ PrefabInstance:
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
-      propertyPath: m_RootOrder
-      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3219079293155269067, guid: 5a6d7dc1f247614429fc2997694e2c68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3336,8 +3337,9 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.3541e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.59e-43, y: 3.59e-43, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &2138677393
@@ -3380,6 +3382,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.093039
       objectReference: {fileID: 0}
@@ -3392,6 +3398,10 @@ PrefabInstance:
       value: -3.7685509
       objectReference: {fileID: 0}
     - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -3402,14 +3412,6 @@ PrefabInstance:
     - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6086382465769967238, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3465,6 +3467,10 @@ PrefabInstance:
       value: Crusher
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.6044307
       objectReference: {fileID: 0}
@@ -3477,6 +3483,10 @@ PrefabInstance:
       value: -3.814622
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -3487,14 +3497,6 @@ PrefabInstance:
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7899846357696472485, guid: 1fa5689e69a503746a005f8a223ec571, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
