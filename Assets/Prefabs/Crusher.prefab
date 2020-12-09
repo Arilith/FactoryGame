@@ -72,8 +72,10 @@ GameObject:
   - component: {fileID: 6489194471038020096}
   - component: {fileID: 9073285077239504586}
   - component: {fileID: 7829152987813696086}
+  - component: {fileID: 1836200718583448503}
   - component: {fileID: 7763840034166527147}
   - component: {fileID: 3947093554844735387}
+  - component: {fileID: 6570180990714986701}
   m_Layer: 0
   m_Name: Crusher
   m_TagString: Untagged
@@ -161,8 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7903bf6dd010df40b71354bf96fe47f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputItems: []
-  outputItems: []
   isCrushing: 0
   hasStarted: 0
   isLooking: 0
@@ -171,7 +171,22 @@ MonoBehaviour:
   machineWorkingClip: {fileID: 0}
   machineStopClip: {fileID: 0}
   environment: {fileID: 0}
+  machine: {fileID: 0}
   inputItemsLength: 0
+--- !u!114 &1836200718583448503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415797755523186463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7583464ad1ced46a78a0a0d4fc98d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputItems: []
+  outputItems: []
 --- !u!82 &7763840034166527147
 AudioSource:
   m_ObjectHideFlags: 0
@@ -282,3 +297,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: ce8c0dd277284184aa3ce100610639df, type: 3}
+--- !u!114 &6570180990714986701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415797755523186463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879d4c32dce2e50469a20164e9014254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiCanvas: {fileID: 0}
+  ui: {fileID: 962636690804754537, guid: 71a24ce45fc68fb469626eb396d938ab, type: 3}
+  fpController: {fileID: 0}
+  progressSlider: {fileID: 0}
+  isOpen: 0

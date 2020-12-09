@@ -3337,7 +3337,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -1.0614139e-36, z: 4.5904e-41, w: 0}
+  m_BoundingSphereOverride: {x: 7.88e-43, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3376,7 +3376,11 @@ PrefabInstance:
     - target: {fileID: 1164601016966478845, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: uiCanvas
       value: 
-      objectReference: {fileID: 1923787423}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164601016966478845, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
+      propertyPath: fpController
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3496653438335729483, guid: 8f8c8a93cfd1c7449a6b0cf7711c355b, type: 3}
       propertyPath: Loop
       value: 1

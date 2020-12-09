@@ -24,6 +24,8 @@ public class Furnace : MonoBehaviour
 
     [SerializeField] private int inputItemsLength;
 
+    public UI ui;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,7 @@ public class Furnace : MonoBehaviour
         machineWorkingClip = Resources.Load<AudioClip>("Sounds/Furnace/FurnaceWork");
         machineStopClip = Resources.Load<AudioClip>("Sounds/Furnace/FurnaceStop");
 
+        ui = GetComponent<UI>();
     }
 
     public IEnumerator ShootItemsOut()
@@ -52,6 +55,8 @@ public class Furnace : MonoBehaviour
             //Remove it from the list
             machine.outputItems.Remove(item);
 
+            ui.UpdateUI();
+
             yield return new WaitForSeconds(2f);
         }
 
@@ -68,6 +73,8 @@ public class Furnace : MonoBehaviour
             {
                 if (hit.transform.gameObject.GetComponent<Item>())
                 {
+                    ui.UpdateUI();
+
                     if (hit.transform.gameObject.GetComponent<Item>().canBeSmelted && machine.inputItems.Count > 0)
                     {
                         if (hit.transform.gameObject.GetComponent<Item>().itemName == machine.inputItems[0].GetComponent<Item>().itemName)
@@ -149,6 +156,8 @@ public class Furnace : MonoBehaviour
             //Get the smeltingtime
             float smeltingTime = item.GetComponent<Item>().smeltingTime;
 
+            StartCoroutine(ui.AnimateSliderOverTime(smeltingTime));
+
             //Wait the amount of seconds defined in the items properties.
             yield return new WaitForSeconds(smeltingTime);
 
@@ -157,23 +166,29 @@ public class Furnace : MonoBehaviour
 
             //Destroy the item so it doesn't take up memory.
             Destroy(item);
-
-            //UpdateUI
-            GetComponent<UI>().UpdateUI();
-
+            
             //Add to output
             machine.outputItems.Add(item.GetComponent<Item>().BakedItem);
 
             //Add to the baked items so the index won't be out of range
             bakedItems++;
 
-            StartCoroutine(ShootItemsOut());
+            //UpdateUI
+            GetComponent<UI>().UpdateUI();
+
+            //StartCoroutine(ShootItemsOut());
         }
         
         //Stop playing oven sound
         machineSound.loop = false;
         machineSound.Stop();
         machineSound.PlayOneShot(machineStopClip);
+
+        //Reset progress slider value
+        if (GetComponent<UI>().isOpen == true)
+        {
+            ui.progressSlider.value = 0;
+        }
 
         yield return new WaitForSeconds(5f);
 
