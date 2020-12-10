@@ -90,6 +90,8 @@ public class UI : MonoBehaviour
         GameObject.Find("InputImage").GetComponent<Image>().sprite = inputTexture;
         GameObject.Find("OutputImage").GetComponent<Image>().sprite = outputTexture;
 
+
+
         
         isOpen = true;
         //inputTexture = instantiatedUI.transform.GetChild(1).transform.GetChild(0).GetComponent<Texture>();
@@ -145,6 +147,18 @@ public class UI : MonoBehaviour
 
         }
         
+    }
+
+    public void SetEfficiency(float efficiency)
+    {
+        if(isOpen)
+            GameObject.Find("EfficiencyNumber").GetComponent<TMP_Text>().text = (efficiency * 100) + "%";
+    }
+
+    public void SetPowerDraw(float powerdraw)
+    {
+        if(isOpen)
+            GameObject.Find("PowerUsageNumber").GetComponent<TMP_Text>().text = powerdraw + "MW";
     }
 
     public void Update()

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using UnityEngine;
 
 public class Furnace : MonoBehaviour
@@ -25,6 +26,11 @@ public class Furnace : MonoBehaviour
     [SerializeField] private int inputItemsLength;
 
     public UI ui;
+
+    public float scanningTime;
+    public float shutdownTime;
+    public float startupTime;
+    public float spittingTime;
 
     // Start is called before the first frame update
     void Start()
@@ -57,7 +63,7 @@ public class Furnace : MonoBehaviour
 
             ui.UpdateUI();
 
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(spittingTime);
         }
 
         yield return null;
@@ -93,7 +99,7 @@ public class Furnace : MonoBehaviour
                 }
             }
 
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(scanningTime);
         }
     }
 
@@ -135,7 +141,7 @@ public class Furnace : MonoBehaviour
     public IEnumerator SmeltItems()
     {
         //Wait for the machine to "Start up"
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(startupTime);
 
         //Make so the sound doesn't stop playing while working
         machineSound.loop = true;
@@ -178,7 +184,12 @@ public class Furnace : MonoBehaviour
 
             //StartCoroutine(ShootItemsOut());
         }
-        
+
+        StartCoroutine(Shutdown());
+    }
+
+    public IEnumerator Shutdown()
+    {
         //Stop playing oven sound
         machineSound.loop = false;
         machineSound.Stop();
@@ -190,16 +201,14 @@ public class Furnace : MonoBehaviour
             ui.progressSlider.value = 0;
         }
 
-        yield return new WaitForSeconds(5f);
-
         //Set smelting and started to false
         isSmelting = false;
         hasStarted = false;
 
+        yield return new WaitForSeconds(shutdownTime);
+
         inputItemsLength = 0;
     }
-
-
     
 
 
