@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UITrigger : MonoBehaviour
 {
-    private bool isUIopen;
+    private bool isUiOpen;
 
     RaycastHit hit;
 
@@ -18,22 +18,22 @@ public class UITrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetButton("Fire2"))
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
             {
-                if (hit.transform.GetComponent<UI>() && !isUIopen)
+                if (hit.transform.GetComponent<UI>() && !isUiOpen)
                 {
-                    isUIopen = true;
+                    isUiOpen = true;
                     hit.transform.GetComponent<UI>().EnableUI();
                 }
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && isUIopen)
+        if (Input.GetKeyDown(KeyCode.Escape) && isUiOpen)
         {
             hit.transform.GetComponent<UI>().CloseUI();
-            isUIopen = false;
+            isUiOpen = false;
         }
     }
 }
