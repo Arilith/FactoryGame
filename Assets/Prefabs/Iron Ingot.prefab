@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6700999088091286207}
   m_Layer: 0
   m_Name: Iron Ingot
-  m_TagString: Untagged
+  m_TagString: PickupItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,15 +97,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Iron Ingot
+  internalName: iron_ingot
   hardness: 0
   smeltingTime: 0
   crushingTime: 0
+  fuelBurnTime: 0
   canBeSmelted: 0
   canBeCrushed: 1
+  canBeFuel: 0
   UIIcon: {fileID: 21300000, guid: bd6ec41b5adca1742bc980d3db7d2ba5, type: 3}
   BakedItem: {fileID: 0}
   CrushedItem: {fileID: 7640567182540467984, guid: d6503fe297dabf44584ca4166b6e9f7b, type: 3}
   crushMultiplier: 1
+  maxStackSize: 100
+  stackCount: 0
+  itemPrefab: {fileID: 2541431429932975615}
 --- !u!54 &3901955230526247604
 Rigidbody:
   m_ObjectHideFlags: 0

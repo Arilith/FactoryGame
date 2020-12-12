@@ -8,6 +8,9 @@ public class Item : MonoBehaviour
 {
 
     public string itemName;
+
+    public string internalName;
+
     public float hardness;
 
     public float smeltingTime;
@@ -25,6 +28,11 @@ public class Item : MonoBehaviour
 
     public int crushMultiplier;
 
+    public int maxStackSize;
+
+    public int stackCount;
+
+    public GameObject itemPrefab;
 
     void Start()
     {

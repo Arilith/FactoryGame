@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4144822170614181732}
   m_Layer: 0
   m_Name: Iron Ore
-  m_TagString: Untagged
+  m_TagString: PickupItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,15 +97,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Iron Ore
+  internalName: iron_ore
   hardness: 25
   smeltingTime: 0
   crushingTime: 0
+  fuelBurnTime: 0
   canBeSmelted: 1
   canBeCrushed: 1
+  canBeFuel: 0
   UIIcon: {fileID: 21300000, guid: 674f378eb0e4da94aa9d14f75cb8bd7e, type: 3}
   BakedItem: {fileID: 2541431429932975615, guid: 8126a5ee461c0174cbf4365a4eb2c18a, type: 3}
   CrushedItem: {fileID: 7640567182540467984, guid: d6503fe297dabf44584ca4166b6e9f7b, type: 3}
   crushMultiplier: 2
+  maxStackSize: 100
+  stackCount: 0
+  itemPrefab: {fileID: 2875450657322926961}
 --- !u!54 &7983872015265973152
 Rigidbody:
   m_ObjectHideFlags: 0
