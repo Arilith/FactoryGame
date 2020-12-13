@@ -319,7 +319,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b61353fb6b743fd4c9c034942124f98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isUIopen: 0
+  isUiOpen: 0
+  isInventoryOpen: 0
+  isDraggingObject: 0
+  isMouseOverUi: 0
+  isLookingAtPickupItem: 0
+  inventoryUI: {fileID: 0}
+  ClickedInventorySlot: {fileID: 0}
+  ClickedInventoryObject: {fileID: 0}
+  inventorySlotHolder: {fileID: 5299341479859734673}
+  pickupText: {fileID: 0}
 --- !u!114 &2806985485230109652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -557,5 +566,10 @@ PrefabInstance:
 --- !u!224 &1331949005441342020 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1463827052155440303, guid: 436e6db01b92d4344a5deb06ea9e4a3b, type: 3}
+  m_PrefabInstance: {fileID: 444878220816357099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5299341479859734673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5739710856893652602, guid: 436e6db01b92d4344a5deb06ea9e4a3b, type: 3}
   m_PrefabInstance: {fileID: 444878220816357099}
   m_PrefabAsset: {fileID: 0}

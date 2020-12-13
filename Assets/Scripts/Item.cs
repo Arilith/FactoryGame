@@ -41,4 +41,9 @@ public class Item : MonoBehaviour
         crushingTime = hardness / 5f;
     }
 
+    // void Update()
+    // {
+    //     if(stackCount == 0)
+    //         Destroy(gameObject);
+    // }
 }

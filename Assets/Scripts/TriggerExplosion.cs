@@ -17,12 +17,12 @@ public class TriggerExplosion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("Fire1") && !playerUI.isUiOpen) {
-             RaycastHit hit;
-
-            if(Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit)) {
-                Instantiate(explosion, hit.point, Quaternion.identity);
-            }
-        }
+        // if(Input.GetButton("Fire1") && !playerUI.isUiOpen) {
+        //      RaycastHit hit;
+        //
+        //     if(Physics.Raycast (Camera.main.ScreenPointToRay (Input.mousePosition), out hit)) {
+        //         Instantiate(explosion, hit.point, Quaternion.identity);
+        //     }
+        // }
     }
 }

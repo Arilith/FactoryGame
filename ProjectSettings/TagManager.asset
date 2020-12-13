@@ -8,6 +8,7 @@ TagManager:
   - ItemUIShouldBeDestroyed
   - Environment
   - PickupItem
+  - PlayerUI
   layers:
   - Default
   - TransparentFX
